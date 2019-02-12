@@ -60,6 +60,16 @@ button {
   cursor: pointer;
 }
 
+#logo-overlay {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#logo-header {
+  width: 30%;
+  margin: 0 auto;
+}
+
 #btn__reset {
 	width: 200px;
 	margin: 0 auto;
@@ -86,7 +96,7 @@ button {
 /* Title */
 
 .header {
-  color: #3a3f58;
+  color: #47327e;
 }
 
 
@@ -111,7 +121,7 @@ button {
 
 .show {
   color: #fff;
-  background-color: #4ac0d5;
+  background-color: #00AAE6;
   font-size: 20px;
   height: 65px;
   width: 65px;
@@ -131,14 +141,14 @@ button {
 }
 
 .chosen {
-  background: #3a3f58;
+  background: #47327e;
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
 }
 
 .wrong {
-  background: #f7a964;
+  background: #E3331C;
   color: #FFFFFF;
 }
 
@@ -180,7 +190,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #47327e;
 }
 
 .start a {

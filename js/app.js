@@ -30,7 +30,8 @@ document.addEventListener('keydown', (event) => {
 //Listens for clicks on the on-screen keyboard
 document.querySelector('#qwerty')
     .addEventListener('click', (e) => {
-        if(e.target.className === 'key'){
+        console.log('log');
+        if(e.target.tagName === 'BUTTON'){
             newGame.handleInteraction(e.target);
         }
     });

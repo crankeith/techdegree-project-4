@@ -92,10 +92,10 @@ class Game {
         for(let i = phrase.childNodes.length-1; i >= 0; i--){
             phrase.removeChild(phrase.childNodes[i]);
         }
-        //reset classes on keys
+        //reset classes and listener on keys
         const keys = document.querySelectorAll('.key');
         keys.forEach((key) => {
-            key.setAttribute('disabled', false);
+            key.removeAttribute('disabled');
             key.classList.remove('chosen', 'wrong');
         });
 
